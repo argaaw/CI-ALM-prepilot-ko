@@ -61,7 +61,7 @@
       previousNext: "이전/다음",
       freeResponse: "자유 응답",
       optionalNote: "(선택)",
-      freeResponsePlaceholder: "보기 중에 더 적절한 답이 없다고 생각되면 여기에 입력하세요.",
+      freeResponsePlaceholder: "보기에는 없지만 더 적절하다고 생각되는 답이 있으면 여기에 입력해 주세요.",
       waitingToSave: "저장 대기 중",
       saved: "저장됨",
       notAnswered: "아직 응답하지 않음",
