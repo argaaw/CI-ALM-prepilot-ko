@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>음원 청취 평가</title>
+  <link rel="stylesheet" href="assets/app.css?v=1788605558687540401">
+  <link rel="stylesheet" href="assets/evaluation.css?v=1788605558687540401">
+  <script defer src="assets/evaluation-static.js?v=1788605558687540401"></script>
+</head>
+<body>
+  <header class="topbar evaluation-topbar">
+    <div class="evaluation-session-actions" data-session-actions hidden>
+      <span data-save-status>준비됨</span>
+      <strong data-participant-label></strong>
+      <button class="ghost-button" type="button" data-switch-participant>참가자 ID 변경</button>
+      <button class="primary-button evaluation-submit" type="button" data-submit>현재 응답 제출</button>
+    </div>
+  </header>
+
+  <main class="page-shell evaluation-shell">
+    <section class="identity-card panel" data-identity-card>
+      <p class="eyebrow">참가자</p>
+      <h1>참가자 ID를 입력하세요</h1>
+      <p>저장된 응답을 이어서 작성하려면 다시 방문할 때도 같은 ID를 사용하세요.</p>
+      <form data-identity-form>
+        <label>참가자 ID<input name="participant_id" maxlength="64" autocomplete="username" required autofocus></label>
+        <button class="primary-button" type="submit">시작 또는 이어하기</button>
+      </form>
+      <p class="identity-error" data-identity-error hidden></p>
+    </section>
+
+    <section data-evaluation-app hidden>
+      <div class="evaluation-heading">
+        <div class="submission-state"><span data-submission-state>아직 제출하지 않음</span></div>
+      </div>
+      <section class="workspace-grid evaluation-grid">
+        <aside class="filter-panel panel evaluation-task-panel">
+          <div class="panel-heading"><div><p class="eyebrow">선택</p><h2>과제</h2></div></div>
+          <nav class="task-toggle-list" data-task-list aria-label="평가 과제"></nav>
+        </aside>
+        <section class="sample-panel panel evaluation-sample-panel">
+          <div class="panel-heading"><div><p class="eyebrow">청취</p><h2>음원</h2></div><span class="keyboard-hint">↑ ↓ 이동</span></div>
+          <div data-sample-list></div>
+        </section>
+        <section class="detail-panel panel" data-workspace></section>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

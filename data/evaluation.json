@@ -1,0 +1,3065 @@
+{
+  "evaluation_id": "team-prepilot-ci-001",
+  "title": "음원 청취 평가",
+  "api_url": "https://zwmdukuecvntquygsksv.supabase.co/functions/v1/human-evaluation",
+  "language": "ko",
+  "audio_variants": [
+    "original",
+    "ci_vocoded"
+  ],
+  "tasks": [
+    {
+      "id": "Melody",
+      "label": "선율",
+      "question": "다섯 음으로 이루어진 선율의 윤곽을 가장 잘 설명하는 것은 무엇인가요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "상행 (Rising: low → higher → higher → higher → highest)",
+        "상행-하행 (Rising-falling: low → higher → highest → lower → low)",
+        "평탄 (Flat: same → same → same → same → same)",
+        "하행-상행 (Falling-rising: high → lower → lowest → higher → high)",
+        "하행 (Falling: high → lower → lower → lower → lowest)"
+      ],
+      "samples": [
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_04_falling_rising",
+          "required": true,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "4",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling_rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_04_falling_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_04_falling_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_04_falling_rising",
+          "required": true,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "4",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling_rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_04_falling_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_04_falling_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_03st_04_falling_rising",
+          "required": true,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "4",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling_rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_04_falling_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_04_falling_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_04st_04_falling_rising",
+          "required": true,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "4",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling_rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_04_falling_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_04_falling_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_02_rising_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "2",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_02_rising_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_02_rising_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_03_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "3",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_03_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_03_flat/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_05_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "5",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_05_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_05_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_02_rising_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "2",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_02_rising_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_02_rising_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_03_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "3",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_03_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_03_flat/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_05_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "5",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_05_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_05_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_03st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_03st_02_rising_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "2",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_02_rising_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_02_rising_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_03st_03_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "3",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_03_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_03_flat/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_03st_05_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "5",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_05_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_03st_05_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_04st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_04st_02_rising_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "2",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_02_rising_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_02_rising_falling/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_04st_03_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "3",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_03_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_03_flat/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_04st_05_falling",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "5",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "falling",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_05_falling/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_05_falling/original.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Instrument",
+      "label": "악기",
+      "question": "어떤 악기가 연주되고 있나요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "피아노 (Piano)",
+        "플루트 (Flute)",
+        "바이올린 (Violin)",
+        "디스토션 일렉트릭 기타 (Distorted electric guitar)",
+        "드럼 (Drums)",
+        "색소폰 (Saxophone)"
+      ],
+      "samples": [
+        {
+          "id": "medley-solos-db:0086cb3f-d951-591a-faf8-8c37d97796a2",
+          "required": true,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "distorted electric guitar",
+          "split": "test",
+          "source_id": "24",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "1"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0086cb3f-d951-591a-faf8-8c37d97796a2/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0086cb3f-d951-591a-faf8-8c37d97796a2/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:002adfd5-3371-51e2-f2ae-8c1f81393734",
+          "required": true,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "flute",
+          "split": "test",
+          "source_id": "45",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "3"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A002adfd5-3371-51e2-f2ae-8c1f81393734/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A002adfd5-3371-51e2-f2ae-8c1f81393734/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:00315143-d2c3-5fb2-f84a-253505a69b97",
+          "required": true,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "piano",
+          "split": "validation",
+          "source_id": "217",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A00315143-d2c3-5fb2-f84a-253505a69b97/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A00315143-d2c3-5fb2-f84a-253505a69b97/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:1dba7d46-124f-58e2-f0b4-2c860926ad54",
+          "required": true,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "tenor saxophone",
+          "split": "test",
+          "source_id": "87",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "5"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A1dba7d46-124f-58e2-f0b4-2c860926ad54/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A1dba7d46-124f-58e2-f0b4-2c860926ad54/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:00e676e6-2b81-5d72-f33b-d2456b045072",
+          "required": true,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "violin",
+          "split": "test",
+          "source_id": "128",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "7"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A00e676e6-2b81-5d72-f33b-d2456b045072/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A00e676e6-2b81-5d72-f33b-d2456b045072/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:08f48e8d-2124-52ca-fd83-e2181ed45403",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "distorted electric guitar",
+          "split": "test",
+          "source_id": "25",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "1"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A08f48e8d-2124-52ca-fd83-e2181ed45403/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A08f48e8d-2124-52ca-fd83-e2181ed45403/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:1bb387c7-a5df-5282-f931-dfb1bc4435b3",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "distorted electric guitar",
+          "split": "test",
+          "source_id": "22",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "1"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A1bb387c7-a5df-5282-f931-dfb1bc4435b3/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A1bb387c7-a5df-5282-f931-dfb1bc4435b3/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:23ea8ff1-cb5e-57cc-f058-f9fec4697380",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "distorted electric guitar",
+          "split": "test",
+          "source_id": "23",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "1"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A23ea8ff1-cb5e-57cc-f058-f9fec4697380/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A23ea8ff1-cb5e-57cc-f058-f9fec4697380/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:00c6502d-5b64-54c1-fa5f-12aa11c34cbe",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "flute",
+          "split": "test",
+          "source_id": "55",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "3"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A00c6502d-5b64-54c1-fa5f-12aa11c34cbe/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A00c6502d-5b64-54c1-fa5f-12aa11c34cbe/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:01e90c85-e557-5081-fc0e-cf4b8593ea71",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "flute",
+          "split": "test",
+          "source_id": "69",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "3"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A01e90c85-e557-5081-fc0e-cf4b8593ea71/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A01e90c85-e557-5081-fc0e-cf4b8593ea71/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:0de44d1c-b2a7-5c99-fc24-da528cc7e31d",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "flute",
+          "split": "test",
+          "source_id": "50",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "3"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0de44d1c-b2a7-5c99-fc24-da528cc7e31d/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0de44d1c-b2a7-5c99-fc24-da528cc7e31d/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "piano",
+          "split": "test",
+          "source_id": "82",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A00c01f0c-23d3-5d2e-fd60-bc02b1c8e65b/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:0178abfb-e481-57db-f3fc-fe86f5d607eb",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "piano",
+          "split": "validation",
+          "source_id": "215",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0178abfb-e481-57db-f3fc-fe86f5d607eb/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0178abfb-e481-57db-f3fc-fe86f5d607eb/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:0d498fa3-099c-5c92-f7dd-207a4567a9db",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "piano",
+          "split": "test",
+          "source_id": "76",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0d498fa3-099c-5c92-f7dd-207a4567a9db/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0d498fa3-099c-5c92-f7dd-207a4567a9db/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:4fe75106-e72d-5cbf-f0b9-a81bde5b527d",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "tenor saxophone",
+          "split": "test",
+          "source_id": "85",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "5"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A4fe75106-e72d-5cbf-f0b9-a81bde5b527d/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A4fe75106-e72d-5cbf-f0b9-a81bde5b527d/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:9572b420-f65c-57b0-f64f-91027f0781ec",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "tenor saxophone",
+          "split": "test",
+          "source_id": "87",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "5"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A9572b420-f65c-57b0-f64f-91027f0781ec/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A9572b420-f65c-57b0-f64f-91027f0781ec/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:a92c5040-7f12-5b75-ffdb-520adb16cc7d",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "tenor saxophone",
+          "split": "test",
+          "source_id": "85",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "5"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253Aa92c5040-7f12-5b75-ffdb-520adb16cc7d/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253Aa92c5040-7f12-5b75-ffdb-520adb16cc7d/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:011b8ea9-fcdf-5d92-f99c-ec2910c7c957",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "violin",
+          "split": "test",
+          "source_id": "121",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "7"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A011b8ea9-fcdf-5d92-f99c-ec2910c7c957/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A011b8ea9-fcdf-5d92-f99c-ec2910c7c957/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:0422b08f-54ab-5ee1-fafb-6f99e2367443",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "violin",
+          "split": "training",
+          "source_id": "196",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "7"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0422b08f-54ab-5ee1-fafb-6f99e2367443/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0422b08f-54ab-5ee1-fafb-6f99e2367443/original.wav"
+          }
+        },
+        {
+          "id": "medley-solos-db:0514c8c8-1e27-57d2-f3c2-52a2062de3e7",
+          "required": false,
+          "dataset_id": "medley-solos-db",
+          "dataset_name": "Medley-solos-DB",
+          "instrument": "violin",
+          "split": "training",
+          "source_id": "198",
+          "duration": 2.972,
+          "display_metadata": {},
+          "tags": [
+            "7"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/medley-solos-db%253A0514c8c8-1e27-57d2-f3c2-52a2062de3e7/ci-vocoded.wav",
+            "original": "audio/medley-solos-db%253A0514c8c8-1e27-57d2-f3c2-52a2062de3e7/original.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Timbre",
+      "label": "음색",
+      "question": "이 소리의 음색(소리의 특성)을 가장 잘 설명하는 단어는 무엇인가요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "밝은 (Bright)",
+        "어두운 (Dark)",
+        "거친 (Rough)",
+        "부드러운 (Smooth)",
+        "날카로운 (Sharp)"
+      ],
+      "samples": [
+        {
+          "id": "ccmusic-database:western_016_bells",
+          "required": true,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "bells",
+          "split": "Western",
+          "source_id": "16",
+          "duration": 14.273356009070294,
+          "display_metadata": {
+            "Slim": "8.8",
+            "Bright": "8.7",
+            "Dark": "1.0",
+            "Sharp": "8.5",
+            "Thick": "1.0",
+            "Thin": "8.7",
+            "Vigorous": "1.0",
+            "Silvery": "9.0",
+            "Raspy": "5.7",
+            "Full": "2.5",
+            "Coarse": "1.7",
+            "Pure": "8.6",
+            "Hoarse": "2.3",
+            "Consonant": "1.3",
+            "Mellow": "7.2",
+            "Muddy": "3.4"
+          },
+          "tags": [
+            "Bright",
+            "Mellow",
+            "Pure",
+            "Sharp",
+            "Silvery",
+            "Slim",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_016_bells/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_016_bells/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_007_bang_di",
+          "required": true,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "bang_di",
+          "split": "Chinese",
+          "source_id": "7",
+          "duration": 5.76,
+          "display_metadata": {
+            "Slim": "8.3",
+            "Bright": "8.6",
+            "Dark": "1.5",
+            "Sharp": "8.4",
+            "Thick": "1.4",
+            "Thin": "8.0",
+            "Vigorous": "1.5",
+            "Silvery": "8.7",
+            "Raspy": "5.1",
+            "Full": "3.1",
+            "Coarse": "3.0",
+            "Pure": "6.7",
+            "Hoarse": "3.4",
+            "Consonant": "5.6",
+            "Mellow": "3.0",
+            "Muddy": "1.9"
+          },
+          "tags": [
+            "Bright",
+            "Pure",
+            "Sharp",
+            "Silvery",
+            "Slim",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_007_bang_di/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_007_bang_di/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_014_harp",
+          "required": true,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "harp",
+          "split": "Western",
+          "source_id": "14",
+          "duration": 17.494444444444444,
+          "display_metadata": {
+            "Slim": "5.3",
+            "Bright": "5.6",
+            "Dark": "3.8",
+            "Sharp": "4.0",
+            "Thick": "4.1",
+            "Thin": "4.2",
+            "Vigorous": "5.0",
+            "Silvery": "6.0",
+            "Raspy": "2.9",
+            "Full": "6.1",
+            "Coarse": "2.7",
+            "Pure": "7.5",
+            "Hoarse": "2.9",
+            "Consonant": "3.9",
+            "Mellow": "7.2",
+            "Muddy": "6.9"
+          },
+          "tags": [
+            "Mellow",
+            "Muddy",
+            "Pure"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_014_harp/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_014_harp/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_004_di_yin_ge_hu",
+          "required": true,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "di_yin_ge_hu",
+          "split": "Chinese",
+          "source_id": "4",
+          "duration": 5.36,
+          "display_metadata": {
+            "Slim": "1.7",
+            "Bright": "1.5",
+            "Dark": "8.1",
+            "Sharp": "1.8",
+            "Thick": "8.8",
+            "Thin": "1.6",
+            "Vigorous": "8.6",
+            "Silvery": "1.1",
+            "Raspy": "4.2",
+            "Full": "7.3",
+            "Coarse": "6.9",
+            "Pure": "3.0",
+            "Hoarse": "6.8",
+            "Consonant": "3.6",
+            "Mellow": "3.3",
+            "Muddy": "8.0"
+          },
+          "tags": [
+            "Coarse",
+            "Dark",
+            "Full",
+            "Hoarse",
+            "Muddy",
+            "Thick",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_004_di_yin_ge_hu/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_004_di_yin_ge_hu/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_002_cello",
+          "required": true,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "cello",
+          "split": "Western",
+          "source_id": "2",
+          "duration": 24.27294784580499,
+          "display_metadata": {
+            "Slim": "2.7",
+            "Bright": "3.1",
+            "Dark": "5.5",
+            "Sharp": "2.3",
+            "Thick": "7.6",
+            "Thin": "1.9",
+            "Vigorous": "7.6",
+            "Silvery": "2.3",
+            "Raspy": "2.8",
+            "Full": "7.8",
+            "Coarse": "4.7",
+            "Pure": "6.3",
+            "Hoarse": "4.5",
+            "Consonant": "6.0",
+            "Mellow": "6.8",
+            "Muddy": "7.2"
+          },
+          "tags": [
+            "Full",
+            "Muddy",
+            "Thick",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_002_cello/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_002_cello/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_006_ban_hu",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "ban_hu",
+          "split": "Chinese",
+          "source_id": "6",
+          "duration": 6.88,
+          "display_metadata": {
+            "Slim": "7.4",
+            "Bright": "7.5",
+            "Dark": "2.3",
+            "Sharp": "8.3",
+            "Thick": "2.1",
+            "Thin": "7.2",
+            "Vigorous": "2.4",
+            "Silvery": "7.6",
+            "Raspy": "6.5",
+            "Full": "2.9",
+            "Coarse": "5.7",
+            "Pure": "4.7",
+            "Hoarse": "6.3",
+            "Consonant": "3.9",
+            "Mellow": "2.8",
+            "Muddy": "3.3"
+          },
+          "tags": [
+            "Bright",
+            "Raspy",
+            "Sharp",
+            "Silvery",
+            "Slim",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_006_ban_hu/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_006_ban_hu/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_021_bei_di_yin_guan",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "bei_di_yin_guan",
+          "split": "Chinese",
+          "source_id": "21",
+          "duration": 6.8,
+          "display_metadata": {
+            "Slim": "2.2",
+            "Bright": "2.2",
+            "Dark": "7.1",
+            "Sharp": "3.2",
+            "Thick": "7.9",
+            "Thin": "2.9",
+            "Vigorous": "7.9",
+            "Silvery": "2.1",
+            "Raspy": "4.4",
+            "Full": "6.7",
+            "Coarse": "6.9",
+            "Pure": "3.0",
+            "Hoarse": "6.4",
+            "Consonant": "4.2",
+            "Mellow": "3.5",
+            "Muddy": "7.6"
+          },
+          "tags": [
+            "Coarse",
+            "Dark",
+            "Full",
+            "Muddy",
+            "Thick",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_021_bei_di_yin_guan/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_021_bei_di_yin_guan/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_007_clarinet",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "clarinet",
+          "split": "Western",
+          "source_id": "7",
+          "duration": 15.083673469387755,
+          "display_metadata": {
+            "Slim": "4.2",
+            "Bright": "4.8",
+            "Dark": "4.5",
+            "Sharp": "4.3",
+            "Thick": "5.9",
+            "Thin": "4.5",
+            "Vigorous": "6.2",
+            "Silvery": "3.9",
+            "Raspy": "3.6",
+            "Full": "6.5",
+            "Coarse": "3.7",
+            "Pure": "6.6",
+            "Hoarse": "3.5",
+            "Consonant": "5.0",
+            "Mellow": "7.2",
+            "Muddy": "7.2"
+          },
+          "tags": [
+            "Mellow",
+            "Muddy"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_007_clarinet/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_007_clarinet/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_021_clavichord",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "clavichord",
+          "split": "Western",
+          "source_id": "21",
+          "duration": 12.423514739229025,
+          "display_metadata": {
+            "Slim": "3.8",
+            "Bright": "5.9",
+            "Dark": "3.4",
+            "Sharp": "6.7",
+            "Thick": "4.1",
+            "Thin": "6.8",
+            "Vigorous": "3.9",
+            "Silvery": "5.3",
+            "Raspy": "5.2",
+            "Full": "4.4",
+            "Coarse": "6.6",
+            "Pure": "2.8",
+            "Hoarse": "7.9",
+            "Consonant": "6.9",
+            "Mellow": "3.5",
+            "Muddy": "2.1"
+          },
+          "tags": [
+            "Coarse",
+            "Hoarse",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_021_clavichord/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_021_clavichord/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_020_di_yin_guan",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "di_yin_guan",
+          "split": "Chinese",
+          "source_id": "20",
+          "duration": 6.0,
+          "display_metadata": {
+            "Slim": "3.1",
+            "Bright": "3.2",
+            "Dark": "6.2",
+            "Sharp": "3.8",
+            "Thick": "7.0",
+            "Thin": "3.5",
+            "Vigorous": "7.2",
+            "Silvery": "2.7",
+            "Raspy": "4.2",
+            "Full": "6.6",
+            "Coarse": "5.9",
+            "Pure": "4.4",
+            "Hoarse": "6.0",
+            "Consonant": "5.1",
+            "Mellow": "4.4",
+            "Muddy": "6.8"
+          },
+          "tags": [
+            "Muddy",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_020_di_yin_guan/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_020_di_yin_guan/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_017_di_yin_suo_na",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "di_yin_suo_na",
+          "split": "Chinese",
+          "source_id": "17",
+          "duration": 6.72,
+          "display_metadata": {
+            "Slim": "4.8",
+            "Bright": "5.5",
+            "Dark": "6.4",
+            "Sharp": "4.4",
+            "Thick": "6.1",
+            "Thin": "4.3",
+            "Vigorous": "6.5",
+            "Silvery": "2.7",
+            "Raspy": "6.9",
+            "Full": "5.2",
+            "Coarse": "6.7",
+            "Pure": "3.8",
+            "Hoarse": "6.4",
+            "Consonant": "3.0",
+            "Mellow": "2.2",
+            "Muddy": "6.2"
+          },
+          "tags": [
+            "Coarse",
+            "Raspy"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_017_di_yin_suo_na/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_017_di_yin_suo_na/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_003_double_bass",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "double_bass",
+          "split": "Western",
+          "source_id": "3",
+          "duration": 17.993537414965985,
+          "display_metadata": {
+            "Slim": "1.6",
+            "Bright": "1.0",
+            "Dark": "8.5",
+            "Sharp": "1.3",
+            "Thick": "8.8",
+            "Thin": "1.8",
+            "Vigorous": "8.7",
+            "Silvery": "1.1",
+            "Raspy": "3.2",
+            "Full": "6.6",
+            "Coarse": "7.6",
+            "Pure": "3.9",
+            "Hoarse": "6.4",
+            "Consonant": "8.1",
+            "Mellow": "3.0",
+            "Muddy": "3.8"
+          },
+          "tags": [
+            "Coarse",
+            "Consonant",
+            "Dark",
+            "Thick",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_003_double_bass/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_003_double_bass/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_005_flute",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "flute",
+          "split": "Western",
+          "source_id": "5",
+          "duration": 16.695918367346938,
+          "display_metadata": {
+            "Slim": "6.6",
+            "Bright": "6.5",
+            "Dark": "2.9",
+            "Sharp": "6.9",
+            "Thick": "3.4",
+            "Thin": "6.0",
+            "Vigorous": "3.0",
+            "Silvery": "6.9",
+            "Raspy": "3.6",
+            "Full": "4.7",
+            "Coarse": "2.7",
+            "Pure": "5.8",
+            "Hoarse": "2.8",
+            "Consonant": "3.3",
+            "Mellow": "6.7",
+            "Muddy": "6.6"
+          },
+          "tags": [
+            "Muddy",
+            "Sharp",
+            "Slim"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_005_flute/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_005_flute/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_018_gao_yin_guan",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "gao_yin_guan",
+          "split": "Chinese",
+          "source_id": "18",
+          "duration": 5.76,
+          "display_metadata": {
+            "Slim": "5.9",
+            "Bright": "6.0",
+            "Dark": "4.5",
+            "Sharp": "7.2",
+            "Thick": "3.5",
+            "Thin": "6.4",
+            "Vigorous": "3.5",
+            "Silvery": "5.3",
+            "Raspy": "7.7",
+            "Full": "3.5",
+            "Coarse": "6.9",
+            "Pure": "2.8",
+            "Hoarse": "7.4",
+            "Consonant": "2.1",
+            "Mellow": "2.1",
+            "Muddy": "5.3"
+          },
+          "tags": [
+            "Coarse",
+            "Hoarse",
+            "Raspy",
+            "Sharp"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_018_gao_yin_guan/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_018_gao_yin_guan/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_033_kong_hou",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "kong_hou",
+          "split": "Chinese",
+          "source_id": "33",
+          "duration": 6.44,
+          "display_metadata": {
+            "Slim": "5.1",
+            "Bright": "5.4",
+            "Dark": "4.3",
+            "Sharp": "3.5",
+            "Thick": "5.9",
+            "Thin": "3.4",
+            "Vigorous": "5.9",
+            "Silvery": "5.2",
+            "Raspy": "2.6",
+            "Full": "7.1",
+            "Coarse": "3.2",
+            "Pure": "6.9",
+            "Hoarse": "2.2",
+            "Consonant": "7.6",
+            "Mellow": "7.3",
+            "Muddy": "4.5"
+          },
+          "tags": [
+            "Consonant",
+            "Full",
+            "Mellow",
+            "Pure"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_033_kong_hou/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_033_kong_hou/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:chinese_025_liu_qin",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "liu_qin",
+          "split": "Chinese",
+          "source_id": "25",
+          "duration": 7.24,
+          "display_metadata": {
+            "Slim": "6.9",
+            "Bright": "7.3",
+            "Dark": "3.0",
+            "Sharp": "6.4",
+            "Thick": "3.4",
+            "Thin": "6.0",
+            "Vigorous": "3.1",
+            "Silvery": "7.5",
+            "Raspy": "4.0",
+            "Full": "5.2",
+            "Coarse": "3.4",
+            "Pure": "5.9",
+            "Hoarse": "3.1",
+            "Consonant": "6.4",
+            "Mellow": "4.9",
+            "Muddy": "3.1"
+          },
+          "tags": [
+            "Bright",
+            "Silvery",
+            "Slim"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Achinese_025_liu_qin/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Achinese_025_liu_qin/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_004_piccolo",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "piccolo",
+          "split": "Western",
+          "source_id": "4",
+          "duration": 19.111875,
+          "display_metadata": {
+            "Slim": "7.2",
+            "Bright": "8.0",
+            "Dark": "2.0",
+            "Sharp": "7.9",
+            "Thick": "2.5",
+            "Thin": "7.1",
+            "Vigorous": "3.0",
+            "Silvery": "7.5",
+            "Raspy": "3.7",
+            "Full": "3.5",
+            "Coarse": "3.1",
+            "Pure": "5.5",
+            "Hoarse": "4.1",
+            "Consonant": "3.6",
+            "Mellow": "5.9",
+            "Muddy": "5.1"
+          },
+          "tags": [
+            "Bright",
+            "Sharp",
+            "Silvery",
+            "Slim",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_004_piccolo/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_004_piccolo/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_013_tuba",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "tuba",
+          "split": "Western",
+          "source_id": "13",
+          "duration": 19.5,
+          "display_metadata": {
+            "Slim": "1.2",
+            "Bright": "1.0",
+            "Dark": "8.7",
+            "Sharp": "1.5",
+            "Thick": "8.6",
+            "Thin": "1.6",
+            "Vigorous": "8.6",
+            "Silvery": "1.0",
+            "Raspy": "5.7",
+            "Full": "7.4",
+            "Coarse": "7.6",
+            "Pure": "3.5",
+            "Hoarse": "7.1",
+            "Consonant": "8.6",
+            "Mellow": "5.0",
+            "Muddy": "5.2"
+          },
+          "tags": [
+            "Coarse",
+            "Consonant",
+            "Dark",
+            "Full",
+            "Hoarse",
+            "Thick",
+            "Vigorous"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_013_tuba/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_013_tuba/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_018_vibraphone",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "vibraphone",
+          "split": "Western",
+          "source_id": "18",
+          "duration": 12.5,
+          "display_metadata": {
+            "Slim": "5.5",
+            "Bright": "6.9",
+            "Dark": "2.0",
+            "Sharp": "5.9",
+            "Thick": "2.7",
+            "Thin": "6.3",
+            "Vigorous": "3.5",
+            "Silvery": "7.8",
+            "Raspy": "3.2",
+            "Full": "5.5",
+            "Coarse": "2.3",
+            "Pure": "7.1",
+            "Hoarse": "2.1",
+            "Consonant": "3.9",
+            "Mellow": "7.2",
+            "Muddy": "6.0"
+          },
+          "tags": [
+            "Mellow",
+            "Pure",
+            "Silvery"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_018_vibraphone/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_018_vibraphone/original.wav"
+          }
+        },
+        {
+          "id": "ccmusic-database:western_017_xylophone",
+          "required": false,
+          "dataset_id": "ccmusic-database",
+          "dataset_name": "CCMusic Instrument Timbre Evaluation Database",
+          "instrument": "xylophone",
+          "split": "Western",
+          "source_id": "17",
+          "duration": 13.886031746031746,
+          "display_metadata": {
+            "Slim": "6.0",
+            "Bright": "6.5",
+            "Dark": "2.4",
+            "Sharp": "6.8",
+            "Thick": "1.8",
+            "Thin": "8.0",
+            "Vigorous": "2.0",
+            "Silvery": "8.0",
+            "Raspy": "5.2",
+            "Full": "3.0",
+            "Coarse": "2.9",
+            "Pure": "7.9",
+            "Hoarse": "2.1",
+            "Consonant": "1.9",
+            "Mellow": "5.4",
+            "Muddy": "4.1"
+          },
+          "tags": [
+            "Pure",
+            "Silvery",
+            "Thin"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/ccmusic-database%253Awestern_017_xylophone/ci-vocoded.wav",
+            "original": "audio/ccmusic-database%253Awestern_017_xylophone/original.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Genre",
+      "label": "장르",
+      "question": "이 음악을 가장 잘 설명하는 장르는 무엇인가요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "클래식 (Classical)",
+        "록 (Rock)",
+        "재즈 (Jazz)",
+        "일렉트로닉 (Electronic)"
+      ],
+      "samples": [
+        {
+          "id": "gtzan:classical:classical.00000",
+          "required": true,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "classical",
+          "split": "unspecified",
+          "source_id": "classical.00000",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "classical"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00000/ci-vocoded.wav",
+            "original": "audio/gtzan%253Aclassical%253Aclassical.00000/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:jazz:jazz.00005",
+          "required": true,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "jazz",
+          "split": "unspecified",
+          "source_id": "jazz.00005",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "jazz"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00005/ci-vocoded.wav",
+            "original": "audio/gtzan%253Ajazz%253Ajazz.00005/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0003521",
+          "required": true,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0003521",
+          "duration": 290.1,
+          "display_metadata": {},
+          "tags": [
+            "dance/electronic"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0003521/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0003521/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0606115",
+          "required": true,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0606115",
+          "duration": 293.9,
+          "display_metadata": {},
+          "tags": [
+            "rock/metal"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0606115/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0606115/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:classical:classical.00002",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "classical",
+          "split": "unspecified",
+          "source_id": "classical.00002",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "classical"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00002/ci-vocoded.wav",
+            "original": "audio/gtzan%253Aclassical%253Aclassical.00002/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:classical:classical.00012",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "classical",
+          "split": "unspecified",
+          "source_id": "classical.00012",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "classical"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00012/ci-vocoded.wav",
+            "original": "audio/gtzan%253Aclassical%253Aclassical.00012/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:classical:classical.00073",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "classical",
+          "split": "unspecified",
+          "source_id": "classical.00073",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "classical"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00073/ci-vocoded.wav",
+            "original": "audio/gtzan%253Aclassical%253Aclassical.00073/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:classical:classical.00096",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "classical",
+          "split": "unspecified",
+          "source_id": "classical.00096",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "classical"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Aclassical%253Aclassical.00096/ci-vocoded.wav",
+            "original": "audio/gtzan%253Aclassical%253Aclassical.00096/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:jazz:jazz.00011",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "jazz",
+          "split": "unspecified",
+          "source_id": "jazz.00011",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "jazz"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00011/ci-vocoded.wav",
+            "original": "audio/gtzan%253Ajazz%253Ajazz.00011/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:jazz:jazz.00044",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "jazz",
+          "split": "unspecified",
+          "source_id": "jazz.00044",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "jazz"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00044/ci-vocoded.wav",
+            "original": "audio/gtzan%253Ajazz%253Ajazz.00044/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:jazz:jazz.00056",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "jazz",
+          "split": "unspecified",
+          "source_id": "jazz.00056",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "jazz"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00056/ci-vocoded.wav",
+            "original": "audio/gtzan%253Ajazz%253Ajazz.00056/original.wav"
+          }
+        },
+        {
+          "id": "gtzan:jazz:jazz.00078",
+          "required": false,
+          "dataset_id": "gtzan",
+          "dataset_name": "GTZAN",
+          "instrument": "jazz",
+          "split": "unspecified",
+          "source_id": "jazz.00078",
+          "duration": null,
+          "display_metadata": {},
+          "tags": [
+            "jazz"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/gtzan%253Ajazz%253Ajazz.00078/ci-vocoded.wav",
+            "original": "audio/gtzan%253Ajazz%253Ajazz.00078/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0006149",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0006149",
+          "duration": 595.4,
+          "display_metadata": {},
+          "tags": [
+            "dance/electronic"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0006149/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0006149/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0007041",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0007041",
+          "duration": 180.0,
+          "display_metadata": {},
+          "tags": [
+            "dance/electronic"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0007041/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0007041/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0009887",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0009887",
+          "duration": 165.6,
+          "display_metadata": {},
+          "tags": [
+            "rock/metal"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0009887/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0009887/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0042327",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0042327",
+          "duration": 243.9,
+          "display_metadata": {},
+          "tags": [
+            "rock/metal"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0042327/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0042327/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0082178",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0082178",
+          "duration": 528.8,
+          "display_metadata": {},
+          "tags": [
+            "dance/electronic"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0082178/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0082178/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0208496",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0208496",
+          "duration": 182.8,
+          "display_metadata": {},
+          "tags": [
+            "rock/metal"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0208496/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0208496/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0940184",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0940184",
+          "duration": 165.0,
+          "display_metadata": {},
+          "tags": [
+            "rock/metal"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0940184/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0940184/original.wav"
+          }
+        },
+        {
+          "id": "mtg-jamendo-genre:track_0976780",
+          "required": false,
+          "dataset_id": "mtg-jamendo-genre",
+          "dataset_name": "MTG-Jamendo Clean Genre Annotations",
+          "instrument": "music track",
+          "split": "unspecified",
+          "source_id": "track_0976780",
+          "duration": 152.0,
+          "display_metadata": {},
+          "tags": [
+            "dance/electronic"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/mtg-jamendo-genre%253Atrack_0976780/ci-vocoded.wav",
+            "original": "audio/mtg-jamendo-genre%253Atrack_0976780/original.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Emotion",
+      "label": "정서",
+      "question": "이 음악이 가장 강하게 전달하는 정서는 무엇인가요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "흥분 (Excitement)",
+        "평온 (Calmness)",
+        "긴장 (Tension)",
+        "슬픔 (Sadness)"
+      ],
+      "samples": [
+        {
+          "id": "emotify:electronic:260",
+          "required": true,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "electronic/60",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.36",
+            "Solemnity": "0.36",
+            "Tenderness": "0.09",
+            "Nostalgia": "0.09",
+            "Calmness": "0.00",
+            "Power": "0.64",
+            "Joyful Activation": "0.09",
+            "Tension": "0.82",
+            "Sadness": "0.09"
+          },
+          "tags": [
+            "electronic",
+            "Power",
+            "Tension"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aelectronic%253A260/ci-vocoded.wav",
+            "original": "audio/emotify%253Aelectronic%253A260/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:2",
+          "required": true,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/2",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.11",
+            "Solemnity": "0.17",
+            "Tenderness": "0.43",
+            "Nostalgia": "0.34",
+            "Calmness": "0.74",
+            "Power": "0.04",
+            "Joyful Activation": "0.02",
+            "Tension": "0.02",
+            "Sadness": "0.11"
+          },
+          "tags": [
+            "classical",
+            "Calmness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A2/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A2/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:123",
+          "required": true,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/23",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.06",
+            "Solemnity": "0.00",
+            "Tenderness": "0.00",
+            "Nostalgia": "0.12",
+            "Calmness": "0.00",
+            "Power": "0.24",
+            "Joyful Activation": "0.76",
+            "Tension": "0.18",
+            "Sadness": "0.06"
+          },
+          "tags": [
+            "rock",
+            "Joyful Activation"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A123/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A123/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:45",
+          "required": true,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/45",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.06",
+            "Solemnity": "0.24",
+            "Tenderness": "0.18",
+            "Nostalgia": "0.41",
+            "Calmness": "0.53",
+            "Power": "0.06",
+            "Joyful Activation": "0.06",
+            "Tension": "0.06",
+            "Sadness": "0.53"
+          },
+          "tags": [
+            "classical",
+            "Sadness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A45/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A45/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:16",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/16",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.09",
+            "Solemnity": "0.27",
+            "Tenderness": "0.05",
+            "Nostalgia": "0.05",
+            "Calmness": "0.02",
+            "Power": "0.70",
+            "Joyful Activation": "0.11",
+            "Tension": "0.64",
+            "Sadness": "0.14"
+          },
+          "tags": [
+            "classical",
+            "Power",
+            "Tension"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A16/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A16/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:35",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/35",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.12",
+            "Solemnity": "0.06",
+            "Tenderness": "0.24",
+            "Nostalgia": "0.18",
+            "Calmness": "0.71",
+            "Power": "0.00",
+            "Joyful Activation": "0.06",
+            "Tension": "0.12",
+            "Sadness": "0.18"
+          },
+          "tags": [
+            "classical",
+            "Calmness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A35/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A35/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:4",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/4",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.12",
+            "Solemnity": "0.14",
+            "Tenderness": "0.52",
+            "Nostalgia": "0.45",
+            "Calmness": "0.76",
+            "Power": "0.02",
+            "Joyful Activation": "0.00",
+            "Tension": "0.02",
+            "Sadness": "0.14"
+          },
+          "tags": [
+            "classical",
+            "Calmness",
+            "Tenderness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A4/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A4/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:47",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/47",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.06",
+            "Solemnity": "0.18",
+            "Tenderness": "0.24",
+            "Nostalgia": "0.47",
+            "Calmness": "0.41",
+            "Power": "0.06",
+            "Joyful Activation": "0.06",
+            "Tension": "0.12",
+            "Sadness": "0.65"
+          },
+          "tags": [
+            "classical",
+            "Sadness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A47/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A47/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:60",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/60",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.12",
+            "Solemnity": "0.29",
+            "Tenderness": "0.29",
+            "Nostalgia": "0.53",
+            "Calmness": "0.53",
+            "Power": "0.00",
+            "Joyful Activation": "0.00",
+            "Tension": "0.12",
+            "Sadness": "0.53"
+          },
+          "tags": [
+            "classical",
+            "Nostalgia",
+            "Sadness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A60/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A60/original.wav"
+          }
+        },
+        {
+          "id": "emotify:classical:91",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "classical/91",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.00",
+            "Solemnity": "0.41",
+            "Tenderness": "0.18",
+            "Nostalgia": "0.29",
+            "Calmness": "0.35",
+            "Power": "0.06",
+            "Joyful Activation": "0.00",
+            "Tension": "0.06",
+            "Sadness": "0.59"
+          },
+          "tags": [
+            "classical",
+            "Sadness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aclassical%253A91/ci-vocoded.wav",
+            "original": "audio/emotify%253Aclassical%253A91/original.wav"
+          }
+        },
+        {
+          "id": "emotify:electronic:203",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "electronic/3",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.11",
+            "Solemnity": "0.48",
+            "Tenderness": "0.02",
+            "Nostalgia": "0.07",
+            "Calmness": "0.11",
+            "Power": "0.50",
+            "Joyful Activation": "0.02",
+            "Tension": "0.55",
+            "Sadness": "0.20"
+          },
+          "tags": [
+            "electronic",
+            "Power",
+            "Tension"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aelectronic%253A203/ci-vocoded.wav",
+            "original": "audio/emotify%253Aelectronic%253A203/original.wav"
+          }
+        },
+        {
+          "id": "emotify:electronic:245",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "electronic/45",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.00",
+            "Solemnity": "0.55",
+            "Tenderness": "0.09",
+            "Nostalgia": "0.09",
+            "Calmness": "0.18",
+            "Power": "0.27",
+            "Joyful Activation": "0.00",
+            "Tension": "0.73",
+            "Sadness": "0.27"
+          },
+          "tags": [
+            "electronic",
+            "Solemnity",
+            "Tension"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aelectronic%253A245/ci-vocoded.wav",
+            "original": "audio/emotify%253Aelectronic%253A245/original.wav"
+          }
+        },
+        {
+          "id": "emotify:electronic:270",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "electronic/70",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.09",
+            "Solemnity": "0.18",
+            "Tenderness": "0.18",
+            "Nostalgia": "0.27",
+            "Calmness": "0.73",
+            "Power": "0.00",
+            "Joyful Activation": "0.09",
+            "Tension": "0.09",
+            "Sadness": "0.09"
+          },
+          "tags": [
+            "electronic",
+            "Calmness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Aelectronic%253A270/ci-vocoded.wav",
+            "original": "audio/emotify%253Aelectronic%253A270/original.wav"
+          }
+        },
+        {
+          "id": "emotify:pop:325",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "pop/25",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.00",
+            "Solemnity": "0.17",
+            "Tenderness": "0.42",
+            "Nostalgia": "0.58",
+            "Calmness": "0.50",
+            "Power": "0.00",
+            "Joyful Activation": "0.00",
+            "Tension": "0.08",
+            "Sadness": "0.50"
+          },
+          "tags": [
+            "pop",
+            "Nostalgia",
+            "Sadness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Apop%253A325/ci-vocoded.wav",
+            "original": "audio/emotify%253Apop%253A325/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:111",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/11",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.24",
+            "Solemnity": "0.06",
+            "Tenderness": "0.02",
+            "Nostalgia": "0.10",
+            "Calmness": "0.10",
+            "Power": "0.38",
+            "Joyful Activation": "0.70",
+            "Tension": "0.14",
+            "Sadness": "0.08"
+          },
+          "tags": [
+            "rock",
+            "Joyful Activation"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A111/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A111/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:128",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/28",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.33",
+            "Solemnity": "0.13",
+            "Tenderness": "0.00",
+            "Nostalgia": "0.33",
+            "Calmness": "0.07",
+            "Power": "0.27",
+            "Joyful Activation": "0.60",
+            "Tension": "0.13",
+            "Sadness": "0.07"
+          },
+          "tags": [
+            "rock",
+            "Joyful Activation"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A128/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A128/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:156",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/56",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.21",
+            "Solemnity": "0.00",
+            "Tenderness": "0.00",
+            "Nostalgia": "0.00",
+            "Calmness": "0.07",
+            "Power": "0.43",
+            "Joyful Activation": "1.00",
+            "Tension": "0.07",
+            "Sadness": "0.00"
+          },
+          "tags": [
+            "rock",
+            "Joyful Activation"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A156/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A156/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:161",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/61",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.00",
+            "Solemnity": "0.14",
+            "Tenderness": "0.07",
+            "Nostalgia": "0.07",
+            "Calmness": "0.14",
+            "Power": "0.21",
+            "Joyful Activation": "0.00",
+            "Tension": "0.93",
+            "Sadness": "0.14"
+          },
+          "tags": [
+            "rock",
+            "Tension"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A161/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A161/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:195",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/95",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.00",
+            "Solemnity": "0.14",
+            "Tenderness": "0.50",
+            "Nostalgia": "0.64",
+            "Calmness": "0.64",
+            "Power": "0.00",
+            "Joyful Activation": "0.00",
+            "Tension": "0.00",
+            "Sadness": "0.43"
+          },
+          "tags": [
+            "rock",
+            "Calmness",
+            "Nostalgia",
+            "Tenderness"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A195/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A195/original.wav"
+          }
+        },
+        {
+          "id": "emotify:rock:198",
+          "required": false,
+          "dataset_id": "emotify",
+          "dataset_name": "Emotify",
+          "instrument": "music excerpt",
+          "split": "unspecified",
+          "source_id": "rock/98",
+          "duration": null,
+          "display_metadata": {
+            "Amazement": "0.21",
+            "Solemnity": "0.00",
+            "Tenderness": "0.07",
+            "Nostalgia": "0.14",
+            "Calmness": "0.07",
+            "Power": "0.43",
+            "Joyful Activation": "0.71",
+            "Tension": "0.00",
+            "Sadness": "0.00"
+          },
+          "tags": [
+            "rock",
+            "Joyful Activation"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/emotify%253Arock%253A198/ci-vocoded.wav",
+            "original": "audio/emotify%253Arock%253A198/original.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Rhythm",
+      "label": "리듬",
+      "question": "이 리듬을 가장 잘 설명하는 단어는 무엇인가요?\n\n여러 보기가 모두 그럴듯하다면 복수로 선택할 수 있습니다.\n한 보기가 분명히 가장 적절하다면 그 보기만 선택하세요.",
+      "options": [
+        "빠른 (Fast)",
+        "느린 (Slow)",
+        "스트레이트/규칙적 박자 (Straight (regular beat))",
+        "당김음/엇박 (Syncopated (off-beat))"
+      ],
+      "samples": [
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_01",
+          "required": true,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 01",
+          "split": "unspecified",
+          "source_id": "stimulus 01",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "0",
+            "Joint Audio Entropy (JAE)": "12.60",
+            "Wanting-to-Move (M)": "2.27",
+            "Pleasure (P)": "2.21",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Pleasure",
+            "Low Syncopation",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_01/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_01/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_41",
+          "required": true,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 41",
+          "split": "unspecified",
+          "source_id": "stimulus 41",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "58",
+            "Joint Audio Entropy (JAE)": "10.63",
+            "Wanting-to-Move (M)": "1.94",
+            "Pleasure (P)": "2.24",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_41/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_41/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_48",
+          "required": true,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 48",
+          "split": "unspecified",
+          "source_id": "stimulus 48",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "71",
+            "Joint Audio Entropy (JAE)": "13.15",
+            "Wanting-to-Move (M)": "3.08",
+            "Pleasure (P)": "3.09",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "High Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_48/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_48/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_03",
+          "required": true,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 03",
+          "split": "unspecified",
+          "source_id": "stimulus 03",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "6",
+            "Joint Audio Entropy (JAE)": "10.15",
+            "Wanting-to-Move (M)": "2.68",
+            "Pleasure (P)": "2.56",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "Low Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_03/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_03/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_04",
+          "required": true,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 04",
+          "split": "unspecified",
+          "source_id": "stimulus 04",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "7",
+            "Joint Audio Entropy (JAE)": "10.60",
+            "Wanting-to-Move (M)": "3.00",
+            "Pleasure (P)": "2.80",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Syncopation",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_04/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_04/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_01",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 01",
+          "split": "unspecified",
+          "source_id": "stimulus 01",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "0",
+            "Joint Audio Entropy (JAE)": "12.60",
+            "Wanting-to-Move (M)": "2.27",
+            "Pleasure (P)": "2.21",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "Low Pleasure",
+            "Low Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_01/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_01/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_02",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 02",
+          "split": "unspecified",
+          "source_id": "stimulus 02",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "0",
+            "Joint Audio Entropy (JAE)": "12.97",
+            "Wanting-to-Move (M)": "1.85",
+            "Pleasure (P)": "1.83",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "Low Pleasure",
+            "Low Syncopation",
+            "Low Wanting to Move",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_02/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_02/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_02",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 02",
+          "split": "unspecified",
+          "source_id": "stimulus 02",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "0",
+            "Joint Audio Entropy (JAE)": "12.97",
+            "Wanting-to-Move (M)": "1.85",
+            "Pleasure (P)": "1.83",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Pleasure",
+            "Low Syncopation",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_02/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_02/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_03",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 03",
+          "split": "unspecified",
+          "source_id": "stimulus 03",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "6",
+            "Joint Audio Entropy (JAE)": "10.15",
+            "Wanting-to-Move (M)": "2.68",
+            "Pleasure (P)": "2.56",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Syncopation",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_03/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_03/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_04",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 04",
+          "split": "unspecified",
+          "source_id": "stimulus 04",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "7",
+            "Joint Audio Entropy (JAE)": "10.60",
+            "Wanting-to-Move (M)": "3.00",
+            "Pleasure (P)": "2.80",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "Low Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_04/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_04/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_05",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 05",
+          "split": "unspecified",
+          "source_id": "stimulus 05",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "8",
+            "Joint Audio Entropy (JAE)": "12.17",
+            "Wanting-to-Move (M)": "2.15",
+            "Pleasure (P)": "2.30",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "Low Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_05/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_05/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_05",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 05",
+          "split": "unspecified",
+          "source_id": "stimulus 05",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "8",
+            "Joint Audio Entropy (JAE)": "12.17",
+            "Wanting-to-Move (M)": "2.15",
+            "Pleasure (P)": "2.30",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "Low Syncopation",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_05/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_05/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_40",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 40",
+          "split": "unspecified",
+          "source_id": "stimulus 40",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "54",
+            "Joint Audio Entropy (JAE)": "11.42",
+            "Wanting-to-Move (M)": "2.55",
+            "Pleasure (P)": "2.82",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_40/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_40/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_42",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 42",
+          "split": "unspecified",
+          "source_id": "stimulus 42",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "60",
+            "Joint Audio Entropy (JAE)": "12.29",
+            "Wanting-to-Move (M)": "2.89",
+            "Pleasure (P)": "2.94",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "High Syncopation",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_42/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_42/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_44",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 44",
+          "split": "unspecified",
+          "source_id": "stimulus 44",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "62",
+            "Joint Audio Entropy (JAE)": "11.68",
+            "Wanting-to-Move (M)": "1.98",
+            "Pleasure (P)": "2.12",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_44/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_44/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_44",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 44",
+          "split": "unspecified",
+          "source_id": "stimulus 44",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "62",
+            "Joint Audio Entropy (JAE)": "11.68",
+            "Wanting-to-Move (M)": "1.98",
+            "Pleasure (P)": "2.12",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_44/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_44/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_45",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 45",
+          "split": "unspecified",
+          "source_id": "stimulus 45",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "64",
+            "Joint Audio Entropy (JAE)": "10.20",
+            "Wanting-to-Move (M)": "1.82",
+            "Pleasure (P)": "2.23",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_45/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_45/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_47",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 47",
+          "split": "unspecified",
+          "source_id": "stimulus 47",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "66",
+            "Joint Audio Entropy (JAE)": "10.56",
+            "Wanting-to-Move (M)": "1.77",
+            "Pleasure (P)": "2.24",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_47/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_47/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:60bpm_49",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 49",
+          "split": "unspecified",
+          "source_id": "stimulus 49",
+          "duration": 13.333333,
+          "display_metadata": {
+            "Syncopation Degree (S)": "78",
+            "Joint Audio Entropy (JAE)": "11.44",
+            "Wanting-to-Move (M)": "1.83",
+            "Pleasure (P)": "2.05",
+            "Tempo (BPM)": "60"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Pleasure",
+            "Low Wanting to Move",
+            "60-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A60bpm_49/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A60bpm_49/original.wav"
+          }
+        },
+        {
+          "id": "witek-2014-syncopation-resynthesized:148bpm_50",
+          "required": false,
+          "dataset_id": "witek-2014-syncopation-resynthesized",
+          "dataset_name": "Witek et al. (2014) Syncopation Re-synthesized Stimuli",
+          "instrument": "drum pattern 50",
+          "split": "unspecified",
+          "source_id": "stimulus 50",
+          "duration": 6.486486,
+          "display_metadata": {
+            "Syncopation Degree (S)": "81",
+            "Joint Audio Entropy (JAE)": "12.37",
+            "Wanting-to-Move (M)": "2.00",
+            "Pleasure (P)": "2.32",
+            "Tempo (BPM)": "148"
+          },
+          "tags": [
+            "High Syncopation",
+            "Low Wanting to Move",
+            "148-bpm"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/witek-2014-syncopation-resynthesized%253A148bpm_50/ci-vocoded.wav",
+            "original": "audio/witek-2014-syncopation-resynthesized%253A148bpm_50/original.wav"
+          }
+        }
+      ]
+    }
+  ]
+}
