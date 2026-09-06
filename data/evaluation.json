@@ -21,8 +21,84 @@
       ],
       "samples": [
         {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_01st_06_rising_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "6",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_06_rising_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_06_rising_flat/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_01_rising",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "1",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/original.wav"
+          }
+        },
+        {
+          "id": "galvin-mci-rp:mci_a4_0440hz_02st_06_rising_flat",
+          "required": false,
+          "dataset_id": "galvin-mci-rp",
+          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
+          "instrument": "synthetic tone",
+          "split": "unspecified",
+          "source_id": "6",
+          "duration": 4.9,
+          "display_metadata": {},
+          "tags": [
+            "rising_flat",
+            "A4"
+          ],
+          "audio": {
+            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_06_rising_flat/ci-vocoded.wav",
+            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_06_rising_flat/original.wav"
+          }
+        },
+        {
           "id": "galvin-mci-rp:mci_a4_0440hz_01st_04_falling_rising",
-          "required": true,
+          "required": false,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -41,7 +117,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_02st_04_falling_rising",
-          "required": true,
+          "required": false,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -60,7 +136,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_03st_04_falling_rising",
-          "required": true,
+          "required": false,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -79,7 +155,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_04st_04_falling_rising",
-          "required": true,
+          "required": false,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -94,25 +170,6 @@
           "audio": {
             "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_04_falling_rising/ci-vocoded.wav",
             "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_04st_04_falling_rising/original.wav"
-          }
-        },
-        {
-          "id": "galvin-mci-rp:mci_a4_0440hz_01st_01_rising",
-          "required": false,
-          "dataset_id": "galvin-mci-rp",
-          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
-          "instrument": "synthetic tone",
-          "split": "unspecified",
-          "source_id": "1",
-          "duration": 4.9,
-          "display_metadata": {},
-          "tags": [
-            "rising",
-            "A4"
-          ],
-          "audio": {
-            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/ci-vocoded.wav",
-            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_01_rising/original.wav"
           }
         },
         {
@@ -170,25 +227,6 @@
           "audio": {
             "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_05_falling/ci-vocoded.wav",
             "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_01st_05_falling/original.wav"
-          }
-        },
-        {
-          "id": "galvin-mci-rp:mci_a4_0440hz_02st_01_rising",
-          "required": false,
-          "dataset_id": "galvin-mci-rp",
-          "dataset_name": "Galvin et al. (2007) MCI Stimuli",
-          "instrument": "synthetic tone",
-          "split": "unspecified",
-          "source_id": "1",
-          "duration": 4.9,
-          "display_metadata": {},
-          "tags": [
-            "rising",
-            "A4"
-          ],
-          "audio": {
-            "ci_vocoded": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/ci-vocoded.wav",
-            "original": "audio/galvin-mci-rp%253Amci_a4_0440hz_02st_01_rising/original.wav"
           }
         },
         {
