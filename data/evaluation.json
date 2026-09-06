@@ -1,5 +1,5 @@
 {
-  "evaluation_id": "team-prepilot-ci-001",
+  "evaluation_id": "team-prepilot-ci-002",
   "title": "음원 청취 평가",
   "api_url": "https://zwmdukuecvntquygsksv.supabase.co/functions/v1/human-evaluation",
   "language": "ko",
@@ -826,7 +826,12 @@
         "어두운 (Dark)",
         "거친 (Rough)",
         "부드러운 (Smooth)",
-        "날카로운 (Sharp)"
+        "날카로운 (Sharp)",
+        "둔한 (Dull)",
+        "풍부한 (Rich)",
+        "빈약한 (Poor)",
+        "건조한 (Dry)",
+        "울림 있는 (Resonant)"
       ],
       "samples": [
         {
