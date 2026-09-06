@@ -15,14 +15,16 @@
       "options": [
         "상행 (Rising: 낮음 → 높아짐 → 높아짐 → 높아짐 → 가장 높음)",
         "상행-하행 (Rising-falling: 낮음 → 높아짐 → 가장 높음 → 낮아짐 → 낮음)",
+        "상행-평탄 (Rising-flat: 낮음 → 높아짐 → 높아짐 → 같음 → 같음)",
         "평탄 (Flat: 같음 → 같음 → 같음 → 같음 → 같음)",
         "하행-상행 (Falling-rising: 높음 → 낮아짐 → 가장 낮음 → 높아짐 → 높음)",
-        "하행 (Falling: 높음 → 낮아짐 → 낮아짐 → 낮아짐 → 가장 낮음)"
+        "하행 (Falling: 높음 → 낮아짐 → 낮아짐 → 낮아짐 → 가장 낮음)",
+        "하행-평탄 (Falling-flat: 높음 → 낮아짐 → 낮아짐 → 같음 → 같음)"
       ],
       "samples": [
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_01st_01_rising",
-          "required": false,
+          "required": true,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -41,7 +43,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_01st_06_rising_flat",
-          "required": false,
+          "required": true,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -60,7 +62,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_02st_01_rising",
-          "required": false,
+          "required": true,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
@@ -79,7 +81,7 @@
         },
         {
           "id": "galvin-mci-rp:mci_a4_0440hz_02st_06_rising_flat",
-          "required": false,
+          "required": true,
           "dataset_id": "galvin-mci-rp",
           "dataset_name": "Galvin et al. (2007) MCI Stimuli",
           "instrument": "synthetic tone",
